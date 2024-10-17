@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Properties applied to entire HTML */
+* {
+    box-sizing:border-box;
+}
+
+html, body {
+    height: 100%;
+    background: linear-gradient(#D2D2D2,#BCBCBC 55%, #6C6C6C);
+    font-family: "Montserrat", sans-serif;
+}
+
+
+/* Navigation Bar CSS */
+
+header { 
+    display: flex;
+}
+
+nav { 
+    margin-left: auto;
+}
+
+nav li { 
+    display: inline-block;
+    list-style-type: none;
+    padding-right: 10px;
+}
+
+nav li a { 
+    text-decoration: none;
+    color: black;
+}
+
+nav li a:hover { 
+    text-decoration: underline;
+}
+
+.activeTab {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+/* Main portion of Home Page shortcut CSS */
+
+.main { 
+    text-align: center;
+    /* Change the position of the block */
+    position: relative;
+    top: 30vh;
+   
+}
+
+.main h1 { 
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+
+/* Hyperlink shortcut CSS */
+
+.HyperLinks { 
+    padding-right: 40px;
+}
+
+.HyperLinks ul {
+    list-style-type: none;
+}
+
+.HyperLinks li { 
+    display: inline;
+}
+.HyperLinks li a { 
+    text-decoration: none;
+}
+
+.logo { 
+    height: 22px;
+    width: 22px;
+    margin-right: 13px;
+}
+
+/* CSS for About me Page */
+
+.aboutMe { 
+    display: flex;
+    gap: 25px;
+}
+
+.aboutMePhoto { 
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+
+.aboutMeSection p { 
+    font-weight: bold;
+    font-size:30px;
+    text-decoration: underline;
+    margin: 0px;
+    padding-bottom: 15px;
+}
+
+.aboutMeSection div { 
+    font-size: 15px;
+}
+
+.aboutMeSection {
+    width: 50%;
+}
+
+ .top {
+    margin-top: 5%;
+    margin-left: 18%;
+}
+
+.middle { 
+    margin-left: 11%;
+    margin-top: 1%
+}
+
+.bottom { 
+    margin-left: 18%;
+    margin-top: 1%
+}  
+
+/* Project CSS */
+
+
+/* Under construction CSS */
+
+.inProgress {
+    font-size: 3em;
+    font-weight: bold;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
